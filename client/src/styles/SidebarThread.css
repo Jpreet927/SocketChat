@@ -1,0 +1,25 @@
+.sidebar-thread {
+  display: flex;
+  gap: 0.8em;
+  padding: 1.4em;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.13);
+}
+
+.sidebar-thread:hover {
+  background-color: rgb(19, 24, 36);
+  cursor: pointer;
+}
+
+.thread-details {
+  display: flex;
+  flex-direction: column;
+}
+
+.thread-details h3 {
+  font-size: 18px;
+}
+
+.thread-details p {
+  font-size: 12px;
+  color: rgb(104, 114, 136);
+}

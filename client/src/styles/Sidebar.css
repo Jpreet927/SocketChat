@@ -1,0 +1,93 @@
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  /* width: 30%; */
+  flex-basis: 30%;
+  position: relative;
+  height: 100%;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  gap: 1em;
+  padding: 1em;
+  height: 6%;
+}
+
+.avatar {
+  font-size: large;
+}
+
+.profile-name {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.profile-name .MuiSvgIcon-root {
+  transition: transform 0.2s ease;
+}
+
+.profile-name .MuiSvgIcon-root:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+.search {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0.8em;
+  background-color: rgb(19, 24, 37);
+}
+
+.search-container {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  gap: 0.8em;
+  padding: 0.4em 0.8em;
+  background-color: #0c101b;
+  border-radius: 20px;
+}
+
+.search-container .MuiSvgIcon-root {
+  color: rgb(166, 175, 194);
+}
+
+.search-container .MuiSvgIcon-root:hover {
+  cursor: pointer;
+}
+
+.search-container input {
+  border: none;
+  outline-width: 0;
+  background: none;
+  color: rgb(166, 175, 194);
+}
+
+::placeholder {
+  color: rgba(121, 129, 148, 0.3);
+}
+
+.create-group-btn {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 24px 48px;
+  background-color: #131827;
+  position: absolute;
+  bottom: 0;
+}
+
+.create-group-btn button {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  background: none;
+  padding: 0;
+  margin: 0;
+  font-size: 14px;
+}

@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.Home {
+  height: 100vh;
+  width: 100%;
+  background-image: url("../../images/chat-bg.png");
+  background-size: cover;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  border: none;
+  background-color: rgb(44, 118, 255);
+  color: white;
+  padding: 16px 24px;
+  border-radius: 10px;
+  margin-top: 12px;
+  transition: transform 0.2s ease;
+}
+
+button:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+}
+
+.signup-prompt,
+.login-prompt {
+  display: flex;
+  justify-content: center;
+  gap: 4px;
+  margin-top: 24px;
+  position: absolute;
+}
+
+.login-prompt {
+  top: 80%;
+}
+
+.signup-prompt {
+  top: 75%;
+}
+
+#sign-up-btn,
+#login-btn {
+  color: rgb(44, 118, 255);
+  font-weight: 700;
+}
+
+#sign-up-btn:hover,
+#login-btn:hover {
+  cursor: pointer;
+}
+
+.visibility {
+  visibility: hidden;
+}
+
+.login-form,
+.signup-form {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}

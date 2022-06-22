@@ -1,0 +1,47 @@
+.messaging-body {
+  height: 100%;
+  background-image: url("../../images/chat-bg.png");
+  background-size: cover;
+  background-position: center;
+  padding: 3em;
+  flex: 1;
+  overflow: scroll;
+}
+
+.message-receive {
+  position: relative;
+  font-size: 0.8rem;
+  padding: 1em 1.4em;
+  background-color: rgb(36, 43, 59);
+  width: fit-content;
+  border-radius: 50px;
+  margin-bottom: 48px;
+  transition: box-shadow 0.2s ease;
+}
+
+.receive-name {
+  position: absolute;
+  top: -20px;
+  font-size: 0.7rem;
+  font-weight: 700;
+}
+
+.receive-time {
+  margin-left: 10px;
+  font-size: 0.6rem;
+  color: rgb(104, 114, 136);
+}
+
+.message-sent {
+  /* background: linear-gradient(to right, rgb(24, 151, 255), rgb(116, 13, 212)); */
+  background: linear-gradient(to right, rgb(68, 13, 219), rgb(104, 49, 231));
+  margin-left: auto;
+}
+
+.message-sent .receive-time {
+  color: rgba(255, 255, 255, 0.548);
+}
+
+.message-receive:hover {
+  box-shadow: 0px 0px 20px 0px rgba(255, 255, 255, 0.068);
+}

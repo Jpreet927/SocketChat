@@ -1,0 +1,41 @@
+.create-group-modal {
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  background-color: rgba(9, 14, 22, 0.486);
+  backdrop-filter: blur(2rem);
+  top: 0;
+  left: 0;
+  z-index: 100;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.MuiSvgIcon-root {
+  transform: scale(0.8);
+  transition: transform 0.2s ease;
+}
+
+.MuiSvgIcon-root:hover {
+  cursor: pointer;
+  transform: scale(0.9);
+}
+
+.modal-container form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.group-header {
+  display: flex;
+  justify-content: space-between;
+  gap: 48px;
+}
+
+.selected-users-to-add {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}

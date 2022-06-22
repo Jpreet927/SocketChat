@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+}
+
+.Main {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(7, 9, 17);
+  color: rgb(238, 238, 238);
+}
+
+.main-body {
+  display: flex;
+  background-color: rgb(12, 16, 27);
+  height: 90%;
+  width: 90%;
+}

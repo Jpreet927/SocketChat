@@ -1,0 +1,74 @@
+.messaging {
+  display: flex;
+  flex-direction: column;
+  /* flex: 0.7; */
+  width: 70%;
+  flex-shrink: 0;
+  flex-basis: 70%;
+}
+
+.messaging-header {
+  display: flex;
+  align-items: center;
+  gap: 1em;
+  padding: 1em;
+  height: 6%;
+  background-color: rgb(12, 16, 27);
+}
+
+.header-icons {
+  display: flex;
+  gap: 0.4em;
+  margin-left: auto;
+  margin-right: 1em;
+}
+
+.header-icons .MuiSvgIcon-root {
+  color: white;
+}
+
+.header-details h3 {
+  font-size: 18px;
+}
+
+.header-details p {
+  font-size: 12px;
+  color: rgb(104, 114, 136);
+}
+
+.messaging-body-container {
+  height: 100%;
+  width: 100%;
+}
+
+.message-input {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+  padding: 0 1em;
+  background-color: rgb(19, 24, 37);
+}
+
+.message-input .MuiSvgIcon-root {
+  color: rgb(166, 175, 194);
+}
+
+.message-input form {
+  display: flex;
+  flex: 1;
+}
+
+.message-input form input {
+  flex: 1;
+  border: none;
+  border-radius: 50px;
+  padding: 0.4em 1em;
+  margin-left: 1em;
+  background-color: #0c101b;
+  color: rgb(166, 175, 194);
+}
+
+.message-input form button {
+  display: none;
+}

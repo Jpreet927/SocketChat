@@ -1,0 +1,26 @@
+.selected-user {
+  background-color: rgb(44, 118, 255);
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 6px 18px;
+  margin-bottom: 12px;
+  width: max-content;
+}
+
+.selected-user .MuiSvgIcon-root {
+  transform: scale(0.7);
+  margin: 0;
+  padding: 0;
+  transition: transform 0.2s ease;
+}
+
+.selected-user .MuiSvgIcon-root:hover {
+  cursor: pointer;
+  transform: scale(0.9);
+}
+
+.selected-user p {
+  font-size: 12px;
+}
